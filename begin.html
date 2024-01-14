@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .text {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #db1e09;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .ok {
+            padding: 10px 20px;
+            background-color: #db0c0c;
+            border: none;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .ok:hover {
+            background-color: #db0c0c;
+        }
+
+        .move {
+            display: none;
+          padding: 10px 20px;
+           background-color: #e30ab4;
+          border: none;
+          color: #fff;
+          border-radius: 4px;
+           text-decoration: none;
+         font-weight: bold;
+         transition: background-color 0.3s ease;
+         }
+
+.move:hover {
+  background-color: #0e0f0e;
+}
+    </style>
+</head>
+<!DOCTYPE html>
+<html>
+<body>
+    <div class="content">
+        <h2>Enter the name of student</h2>
+        <input id="text" class="text" type="text">
+        <button id="ok" class="ok" onclick="movePage()">OK</button>
+
+        <h2>Enter the password</h2>
+        <input id="text2" class="text" type="password">
+        <button id="ok2" class="ok" onclick="movePage()">OK</button>
+
+        <a href="exercise.html" id="move" class="move">Start the exercise</a>
+    </div>
+    <script src="exercise.js"></script>
+</body>
+</html>

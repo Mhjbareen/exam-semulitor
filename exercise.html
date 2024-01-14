@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exercise.css">
+</head>
+<body>
+    <p id="timer"></p>
+     <!------------------------1------------------------------->
+    <div class="question1" id="question1">
+        <h2>السؤال الاول</h2>
+        <form>
+            <label for="fname">في أي سنة أحتلت فلسطين</label>
+            <br>
+            <input type="text" id="q1">
+            <br><br>
+        </form>
+        <button class="button" id="next" onclick="ques1()">next</button>
+        <p id="result1"></p>
+    </div>
+    <!------------------------2------------------------------->
+    <div class="question2" id="question2">
+        <form>
+            <h2>السؤال الثاني</h2>
+            <label>في أي عام تم هدم وتدمير جدار برلين</label>
+            <br>
+            <select id="answerr">
+                <option value="1">1998</option>
+                <option value="2">1989</option><!--true-->
+                <option value="3">1985</option>
+                <option value="4">1990</option>
+            </select>
+            <br><br>
+        </form>
+        <button class="button" id="next" onclick="ques2()">next</button>
+        <p id="result2"></p>
+    </div>
+    <!--------------------------3----------------------------->
+    <div id="question3" class="question3">
+        <form>
+            <h2>السؤال الثالث</h2>
+            <p>ما هي اسم اول حضارة بشرية</p>
+            <input type="text" id="q3">
+            <br><br>
+        </form>
+        <button class="button" id="next" onclick="ques3()">next</button>
+        <p id="result3"></p>
+    </div>
+    <!--------------------------4----------------------------->
+    <div id="question4" class="question4">
+        <h2>السؤال الرابع</h2>
+        <label for="history">في أي عام بدأت الحرب العالمية الثانية</label>
+        <br>
+        <input type="date" id="history" name="history"><br><br>
+        <button class="button" id="next" onclick="ques4()">next</button>
+        <p id="result4"></p>
+    </div>
+    <!--------------------------5----------------------------->
+    <div id="question5" class="question5">
+        <h2>السؤال الخامس</h2>
+        <p>:من هو أول الخلفاء الراشدين</p>
+        <form>
+            <input type="radio" id="abobaker" name="answer" value="abobaker">
+            <label for="abobaker">أبو بكر الصديق</label><br>
+            <input type="radio" id="omar" name="answer" value="omar">
+            <label for="omar">عمر ابن الخطاب</label><br>
+            <input type="radio" id="othman" name="answer" value="othman">
+            <label for="othman">عثمان بن عفان</label><br>
+            <input type="radio" id="ali" name="answer" value="ali">
+            <label for="ali">علي ابن أبي طالب</label><br>
+        </form>
+        <button class="button" id="next" onclick="ques5()">next</button>
+        <p id="result5"></p>
+      </div>
+        <!--------------------------6----------------------------->
+        <div class="question6" id="question6">
+            <h2>السؤال السادس</h2>
+            <form>
+                <label for="fname">أين تم بناء اول جامعة بالعالم</label>
+                <br>
+                <input type="text" id="q6">
+                <br><br>
+            </form>
+            <button class="button" id="next" onclick="ques6()">next</button>
+            <p id="result6"></p>
+        </div>
+        <!--------------------------7----------------------------->
+        <div class="question7" id="question7">
+            <h2>السؤال السابع</h2>
+            <form>
+                <label for="fname">ما هي المدينة التي تم الاطلاق عليها مدينة الشمس</label>
+                <br>
+                <input type="text" id="q7">
+                <br><br>
+            </form>
+            <button class="button" id="next" onclick="ques7()">next</button>
+            <p id="result7"></p>
+        </div>
+        <!--------------------------8----------------------------->
+    <div id="question8" class="question8">
+        <h2>السؤال الثامن</h2>
+        <p>في أي مدينة يوجد قبر صلاح الدين الأيوبي</p>
+        <form>
+            <input type="radio" id="bagdad" name="answer8" value="bagdad">
+            <label for="bagdad">بغداد</label><br>
+            <input type="radio" id="alquds" name="answer8" value="alquds">
+            <label for="alquds">القدس</label><br>
+            <input type="radio" id="demashq" name="answer8" value="demashq">
+            <label for="demashq">دمشق</label><br>
+            <input type="radio" id="halab" name="answer8" value="halab">
+            <label for="halab">حلب</label><br>
+        </form>
+        <button class="button" id="next" onclick="ques8()">next</button>
+        <p id="result8"></p>
+      </div>
+      <!--------------------------9----------------------------->
+    <div id="question9" class="question9">
+        <h2>السؤال التاسع</h2>
+        <p>من هو فاتح القسطيطينيه</p>
+        <form>
+            <input type="radio" id="thani" name="answer" value="thani">
+            <label for="thani">عبد الحميد الثاني</label><br>
+            <input type="radio" id="fateh" name="answer" value="fateh">
+            <label for="fateh">محمد الفاتح</label><br>
+            <input type="radio" id="mali" name="answer" value="mali">
+            <label for="mali">محمد علي</label><br>
+            <input type="radio" id="awl" name="answer" value="awl">
+            <label for="awl">عبد الحميد الاول</label><br>
+        </form>
+        <button class="button" id="next" onclick="ques9()">next</button>
+        <p id="result9"></p>
+      </div>
+         <!------------------------10------------------------------->
+    <div class="question10" id="question10">
+        <form>
+            <h2>السؤال العاشر</h2>
+            <label>في أي قرن بدأت الثورة الفرنسية</label>
+            <br>
+            <select id="answer10">
+                <option value="1">18</option><!--true-->
+                <option value="2">20</option>
+                <option value="3">19</option>
+                <option value="4">21</option>
+            </select>
+            <br><br>
+        </form>
+        <button class="button" id="next" onclick="ques10()">next</button>
+        
+        <p id="result10"></p>
+    </div>
+         <!------------------------11------------------------------->
+<div id="point" class="point">
+    <h1 id="h1">check your point</h1>
+    <p id="demo"></p>
+    <button class="button" id="submet" onclick="pointt()">submet</button>
+</div>
+    <script src="exercise.js"></script>
+</body>
+</html>
